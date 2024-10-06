@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+ }
+ body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bg.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .wrapper{
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+ }
+ .wrapper h1{
+    font-size: 23px;
+    text-align:center
+ }

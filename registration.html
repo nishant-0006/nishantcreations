@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons CDN link for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form method="POST" action="register.php">
+            <h1>Register</h1>
+            <!-- Username input field with user icon -->
+            <div class="input-box">
+                <input type="text" placeholder="Username" name="Username" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <!-- Email input field with email icon -->
+            <div class="input-box">
+                <input type="email" placeholder="Email" name="Email" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <!-- Password input field with lock icon -->
+            <div class="input-box">
+                <input type="password" placeholder="Password" name="Password" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <!-- Confirm password input field with lock icon -->
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" name="Confirm_Password" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <!-- Submit button for registration -->
+            <button type="submit" class="btn">Register</button>
+            <!-- Login link for existing users -->
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

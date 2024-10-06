@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Presents</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons CDN link for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form method="POST" action="login.php">
+            <h1>Login</h1>
+            <!-- Username input field with user icon -->
+            <div class="input-box">
+                <input type="text" placeholder="Username" name="Username" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <!-- Email input field with email icon -->
+            <div class="input-box">
+                <input type="text" placeholder="Email" name="Email" required>
+                <!-- Email icon using Boxicons -->
+                <i class='bx bx-envelope'></i> <!-- Added email icon here -->
+            </div>
+            <!-- Password input field with lock icon -->
+            <div class="input-box">
+                <input type="password" placeholder="Password" name="Password" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            <!-- Remember me and forgot password link -->
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember Me</label>
+                <a href="forgot.html">Forgot password</a>
+            </div>
+            <!-- Submit button for login -->
+            <button type="submit" class="btn">Login</button>
+            <!-- Register link for new users -->
+            <div class="register-link">
+                <p>Don't have an account? <a href="registration.html">register</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
